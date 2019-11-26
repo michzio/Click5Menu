@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84232687238DD9240062C945 /* MenuGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84232686238DD9240062C945 /* MenuGroup.swift */; };
 		84983A55238D2F3700B95E42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84983A54238D2F3700B95E42 /* AppDelegate.swift */; };
 		84983A57238D2F3700B95E42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84983A56238D2F3700B95E42 /* SceneDelegate.swift */; };
 		84983A59238D2F3700B95E42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84983A58238D2F3700B95E42 /* ContentView.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84232686238DD9240062C945 /* MenuGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuGroup.swift; sourceTree = "<group>"; };
 		84983A51238D2F3700B95E42 /* Click5Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Click5Menu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84983A54238D2F3700B95E42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84983A56238D2F3700B95E42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84232685238DD9150062C945 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				84232686238DD9240062C945 /* MenuGroup.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		84983A48238D2F3700B95E42 = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +180,7 @@
 		84983AA1238D2FEE00B95E42 /* Click5Menu */ = {
 			isa = PBXGroup;
 			children = (
+				84232685238DD9150062C945 /* Helpers */,
 				84983AA2238D2FEE00B95E42 /* Click5HamburgerMenu.swift */,
 				84983AA3238D2FEE00B95E42 /* Preferences */,
 				84983AA5238D2FEE00B95E42 /* Click5MenuView.swift */,
@@ -352,6 +363,7 @@
 				84983AB5238D2FEE00B95E42 /* Click5MenuModel.swift in Sources */,
 				84983AB2238D2FEE00B95E42 /* Click5MenuViewPreferences.swift in Sources */,
 				84983AB6238D2FEE00B95E42 /* Click5MenuView+Init.swift in Sources */,
+				84232687238DD9240062C945 /* MenuGroup.swift in Sources */,
 				84983ABB238D2FEE00B95E42 /* MenuItemView.swift in Sources */,
 				84983AB4238D2FEE00B95E42 /* Click5MenuItemModifier.swift in Sources */,
 				84983AB9238D2FEE00B95E42 /* Alignments.swift in Sources */,

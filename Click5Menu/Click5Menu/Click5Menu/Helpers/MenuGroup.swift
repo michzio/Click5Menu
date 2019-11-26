@@ -1,29 +1,35 @@
 //
-//  Click5MenuView+Init.swift
-//  CRM
+//  MenuGroup.swift
+//  Click5Menu
 //
-//  Created by Michal Ziobro on 25/11/2019.
+//  Created by Michal Ziobro on 26/11/2019.
 //  Copyright © 2019 Click 5 Interactive. All rights reserved.
 //
 
 import SwiftUI
 
-extension Click5MenuView {
+struct MenuGroup: View {
+    
+    let childs : [AnyView]
+    
+    var body: some View {
+        EmptyView()
+    }
     
     public init<A: View>(@ViewBuilder content: () -> A) {
-        // this init will be used for any non-supported number of TupleView
-        
-        let view = content()
-        self.childs = [AnyView(view)]
-    }
-      
+           // this init will be used for any non-supported number of TupleView
+           
+           let view = content()
+           self.childs = [AnyView(view)]
+       }
+         
     // MARK: TupleView support
     public init<A: View, B: View>(@ViewBuilder content: () -> TupleView<(A, B)>) {
-        
-        let views = content().value
-        
-        self.childs = [AnyView(views.0), AnyView(views.1)]
-       
+           
+           let views = content().value
+           
+           self.childs = [AnyView(views.0), AnyView(views.1)]
+          
     }
       
     public init<A: View, B: View, C: View>(@ViewBuilder content: () -> TupleView<(A, B, C)>) {
@@ -77,25 +83,11 @@ extension Click5MenuView {
 
 }
 
-extension Click5MenuView {
-    
-    public init(@ViewBuilder content: () -> TupleView<(MenuGroup, MenuGroup)>) {
-        
-        let groups = content().value
-        self.childs = groups.0.childs + groups.1.childs
-        
-    }
-    
-    public init(@ViewBuilder content: () -> TupleView<(MenuGroup, MenuGroup, MenuGroup)>) {
-        
-        let groups = content().value
-        self.childs = groups.0.childs + groups.1.childs + groups.2.childs
-    }
-    
-    public init(@ViewBuilder content: () -> TupleView<(MenuGroup, MenuGroup, MenuGroup, MenuGroup)>) {
-        
-        let groups = content().value
-        self.childs = groups.0.childs + groups.1.childs
-            + groups.2.childs + groups.3.childs
+struct MenuGroup_Previews: PreviewProvider {
+    static var previews: some View {
+        MenuGroup {
+            Text("Test")
+            Text("Test")
+        }
     }
 }

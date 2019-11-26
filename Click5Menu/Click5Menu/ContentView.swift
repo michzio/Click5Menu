@@ -13,7 +13,7 @@ struct ContentView: View {
         
         Click5MenuView {
                    
-                   
+            MenuGroup {
             Page1()
             Page2()
             Page3()
@@ -60,6 +60,19 @@ struct ContentView: View {
             Page8()
             Page9()
             Page10()
+            }
+            
+            MenuGroup {
+                NavigationView {
+                    Text("Page 11")
+                    .navigationBarTitle("Page 11", displayMode: .inline)
+                    .hamburgerButton()
+                }
+                .menuItem {
+                    MenuItemView(systemImage: "person", title: "Page 11")
+                }
+                .withTag(11)
+            }
         }
         
     }
