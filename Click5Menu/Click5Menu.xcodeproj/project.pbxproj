@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84983A55238D2F3700B95E42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84983A54238D2F3700B95E42 /* AppDelegate.swift */; };
+		84983A57238D2F3700B95E42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84983A56238D2F3700B95E42 /* SceneDelegate.swift */; };
+		84983A59238D2F3700B95E42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84983A58238D2F3700B95E42 /* ContentView.swift */; };
+		84983A5B238D2F3A00B95E42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84983A5A238D2F3A00B95E42 /* Assets.xcassets */; };
+		84983A5E238D2F3A00B95E42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84983A5D238D2F3A00B95E42 /* Preview Assets.xcassets */; };
+		84983A61238D2F3A00B95E42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84983A5F238D2F3A00B95E42 /* LaunchScreen.storyboard */; };
+		84983A6C238D2F3A00B95E42 /* Click5MenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84983A6B238D2F3A00B95E42 /* Click5MenuTests.swift */; };
+		84983A77238D2F3A00B95E42 /* Click5MenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84983A76238D2F3A00B95E42 /* Click5MenuUITests.swift */; };
+		84983AB1238D2FEE00B95E42 /* Click5HamburgerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84983AA2238D2FEE00B95E42 /* Click5HamburgerMenu.swift */; };
+		84983AB2238D2FEE00B95E42 /* Click5MenuViewPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84983AA4238D2FEE00B95E42 /* Click5MenuViewPreferences.swift */; };
+		84983AB3238D2FEE00B95E42 /* Click5MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84983AA5238D2FEE00B95E42 /* Click5MenuView.swift */; };
+		84983AB4238D2FEE00B95E42 /* Click5MenuItemModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84983AA7238D2FEE00B95E42 /* Click5MenuItemModifier.swift */; };
+		84983AB5238D2FEE00B95E42 /* Click5MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84983AA8238D2FEE00B95E42 /* Click5MenuModel.swift */; };
+		84983AB6238D2FEE00B95E42 /* Click5MenuView+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84983AA9238D2FEE00B95E42 /* Click5MenuView+Init.swift */; };
+		84983AB7238D2FEE00B95E42 /* Click5HamburgerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84983AAA238D2FEE00B95E42 /* Click5HamburgerButton.swift */; };
+		84983AB8238D2FEE00B95E42 /* Click5TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84983AAB238D2FEE00B95E42 /* Click5TabBar.swift */; };
+		84983AB9238D2FEE00B95E42 /* Alignments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84983AAD238D2FEE00B95E42 /* Alignments.swift */; };
+		84983ABA238D2FEE00B95E42 /* TabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84983AAF238D2FEE00B95E42 /* TabItemView.swift */; };
+		84983ABB238D2FEE00B95E42 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84983AB0238D2FEE00B95E42 /* MenuItemView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84983A68238D2F3A00B95E42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84983A49238D2F3700B95E42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84983A50238D2F3700B95E42;
+			remoteInfo = Click5Menu;
+		};
+		84983A73238D2F3A00B95E42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84983A49238D2F3700B95E42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84983A50238D2F3700B95E42;
+			remoteInfo = Click5Menu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84983A51238D2F3700B95E42 /* Click5Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Click5Menu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84983A54238D2F3700B95E42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84983A56238D2F3700B95E42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84983A58238D2F3700B95E42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84983A5A238D2F3A00B95E42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84983A5D238D2F3A00B95E42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84983A60238D2F3A00B95E42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84983A62238D2F3A00B95E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84983A67238D2F3A00B95E42 /* Click5MenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Click5MenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84983A6B238D2F3A00B95E42 /* Click5MenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Click5MenuTests.swift; sourceTree = "<group>"; };
+		84983A6D238D2F3A00B95E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84983A72238D2F3A00B95E42 /* Click5MenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Click5MenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84983A76238D2F3A00B95E42 /* Click5MenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Click5MenuUITests.swift; sourceTree = "<group>"; };
+		84983A78238D2F3A00B95E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84983AA2238D2FEE00B95E42 /* Click5HamburgerMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Click5HamburgerMenu.swift; sourceTree = "<group>"; };
+		84983AA4238D2FEE00B95E42 /* Click5MenuViewPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Click5MenuViewPreferences.swift; sourceTree = "<group>"; };
+		84983AA5238D2FEE00B95E42 /* Click5MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Click5MenuView.swift; sourceTree = "<group>"; };
+		84983AA7238D2FEE00B95E42 /* Click5MenuItemModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Click5MenuItemModifier.swift; sourceTree = "<group>"; };
+		84983AA8238D2FEE00B95E42 /* Click5MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Click5MenuModel.swift; sourceTree = "<group>"; };
+		84983AA9238D2FEE00B95E42 /* Click5MenuView+Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Click5MenuView+Init.swift"; sourceTree = "<group>"; };
+		84983AAA238D2FEE00B95E42 /* Click5HamburgerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Click5HamburgerButton.swift; sourceTree = "<group>"; };
+		84983AAB238D2FEE00B95E42 /* Click5TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Click5TabBar.swift; sourceTree = "<group>"; };
+		84983AAD238D2FEE00B95E42 /* Alignments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alignments.swift; sourceTree = "<group>"; };
+		84983AAF238D2FEE00B95E42 /* TabItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabItemView.swift; sourceTree = "<group>"; };
+		84983AB0238D2FEE00B95E42 /* MenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84983A4E238D2F3700B95E42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84983A64238D2F3A00B95E42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84983A6F238D2F3A00B95E42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84983A48238D2F3700B95E42 = {
+			isa = PBXGroup;
+			children = (
+				84983A53238D2F3700B95E42 /* Click5Menu */,
+				84983A6A238D2F3A00B95E42 /* Click5MenuTests */,
+				84983A75238D2F3A00B95E42 /* Click5MenuUITests */,
+				84983A52238D2F3700B95E42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84983A52238D2F3700B95E42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84983A51238D2F3700B95E42 /* Click5Menu.app */,
+				84983A67238D2F3A00B95E42 /* Click5MenuTests.xctest */,
+				84983A72238D2F3A00B95E42 /* Click5MenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84983A53238D2F3700B95E42 /* Click5Menu */ = {
+			isa = PBXGroup;
+			children = (
+				84983AA1238D2FEE00B95E42 /* Click5Menu */,
+				84983A84238D2F6500B95E42 /* Supporting Files */,
+				84983A58238D2F3700B95E42 /* ContentView.swift */,
+				84983A62238D2F3A00B95E42 /* Info.plist */,
+				84983A5C238D2F3A00B95E42 /* Preview Content */,
+			);
+			path = Click5Menu;
+			sourceTree = "<group>";
+		};
+		84983A5C238D2F3A00B95E42 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84983A5D238D2F3A00B95E42 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84983A6A238D2F3A00B95E42 /* Click5MenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				84983A6B238D2F3A00B95E42 /* Click5MenuTests.swift */,
+				84983A6D238D2F3A00B95E42 /* Info.plist */,
+			);
+			path = Click5MenuTests;
+			sourceTree = "<group>";
+		};
+		84983A75238D2F3A00B95E42 /* Click5MenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84983A76238D2F3A00B95E42 /* Click5MenuUITests.swift */,
+				84983A78238D2F3A00B95E42 /* Info.plist */,
+			);
+			path = Click5MenuUITests;
+			sourceTree = "<group>";
+		};
+		84983A84238D2F6500B95E42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84983A5F238D2F3A00B95E42 /* LaunchScreen.storyboard */,
+				84983A5A238D2F3A00B95E42 /* Assets.xcassets */,
+				84983A56238D2F3700B95E42 /* SceneDelegate.swift */,
+				84983A54238D2F3700B95E42 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84983AA1238D2FEE00B95E42 /* Click5Menu */ = {
+			isa = PBXGroup;
+			children = (
+				84983AA2238D2FEE00B95E42 /* Click5HamburgerMenu.swift */,
+				84983AA3238D2FEE00B95E42 /* Preferences */,
+				84983AA5238D2FEE00B95E42 /* Click5MenuView.swift */,
+				84983AA6238D2FEE00B95E42 /* Modifiers */,
+				84983AA8238D2FEE00B95E42 /* Click5MenuModel.swift */,
+				84983AA9238D2FEE00B95E42 /* Click5MenuView+Init.swift */,
+				84983AAA238D2FEE00B95E42 /* Click5HamburgerButton.swift */,
+				84983AAB238D2FEE00B95E42 /* Click5TabBar.swift */,
+				84983AAC238D2FEE00B95E42 /* Alignments */,
+				84983AAE238D2FEE00B95E42 /* Items */,
+			);
+			path = Click5Menu;
+			sourceTree = "<group>";
+		};
+		84983AA3238D2FEE00B95E42 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				84983AA4238D2FEE00B95E42 /* Click5MenuViewPreferences.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		84983AA6238D2FEE00B95E42 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				84983AA7238D2FEE00B95E42 /* Click5MenuItemModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		84983AAC238D2FEE00B95E42 /* Alignments */ = {
+			isa = PBXGroup;
+			children = (
+				84983AAD238D2FEE00B95E42 /* Alignments.swift */,
+			);
+			path = Alignments;
+			sourceTree = "<group>";
+		};
+		84983AAE238D2FEE00B95E42 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				84983AAF238D2FEE00B95E42 /* TabItemView.swift */,
+				84983AB0238D2FEE00B95E42 /* MenuItemView.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84983A50238D2F3700B95E42 /* Click5Menu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84983A7B238D2F3A00B95E42 /* Build configuration list for PBXNativeTarget "Click5Menu" */;
+			buildPhases = (
+				84983A4D238D2F3700B95E42 /* Sources */,
+				84983A4E238D2F3700B95E42 /* Frameworks */,
+				84983A4F238D2F3700B95E42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Click5Menu;
+			productName = Click5Menu;
+			productReference = 84983A51238D2F3700B95E42 /* Click5Menu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84983A66238D2F3A00B95E42 /* Click5MenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84983A7E238D2F3A00B95E42 /* Build configuration list for PBXNativeTarget "Click5MenuTests" */;
+			buildPhases = (
+				84983A63238D2F3A00B95E42 /* Sources */,
+				84983A64238D2F3A00B95E42 /* Frameworks */,
+				84983A65238D2F3A00B95E42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84983A69238D2F3A00B95E42 /* PBXTargetDependency */,
+			);
+			name = Click5MenuTests;
+			productName = Click5MenuTests;
+			productReference = 84983A67238D2F3A00B95E42 /* Click5MenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84983A71238D2F3A00B95E42 /* Click5MenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84983A81238D2F3A00B95E42 /* Build configuration list for PBXNativeTarget "Click5MenuUITests" */;
+			buildPhases = (
+				84983A6E238D2F3A00B95E42 /* Sources */,
+				84983A6F238D2F3A00B95E42 /* Frameworks */,
+				84983A70238D2F3A00B95E42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84983A74238D2F3A00B95E42 /* PBXTargetDependency */,
+			);
+			name = Click5MenuUITests;
+			productName = Click5MenuUITests;
+			productReference = 84983A72238D2F3A00B95E42 /* Click5MenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84983A49238D2F3700B95E42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Click 5 Interactive";
+				TargetAttributes = {
+					84983A50238D2F3700B95E42 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					84983A66238D2F3A00B95E42 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 84983A50238D2F3700B95E42;
+					};
+					84983A71238D2F3A00B95E42 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 84983A50238D2F3700B95E42;
+					};
+				};
+			};
+			buildConfigurationList = 84983A4C238D2F3700B95E42 /* Build configuration list for PBXProject "Click5Menu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84983A48238D2F3700B95E42;
+			productRefGroup = 84983A52238D2F3700B95E42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84983A50238D2F3700B95E42 /* Click5Menu */,
+				84983A66238D2F3A00B95E42 /* Click5MenuTests */,
+				84983A71238D2F3A00B95E42 /* Click5MenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84983A4F238D2F3700B95E42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84983A61238D2F3A00B95E42 /* LaunchScreen.storyboard in Resources */,
+				84983A5E238D2F3A00B95E42 /* Preview Assets.xcassets in Resources */,
+				84983A5B238D2F3A00B95E42 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84983A65238D2F3A00B95E42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84983A70238D2F3A00B95E42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84983A4D238D2F3700B95E42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84983AB3238D2FEE00B95E42 /* Click5MenuView.swift in Sources */,
+				84983AB5238D2FEE00B95E42 /* Click5MenuModel.swift in Sources */,
+				84983AB2238D2FEE00B95E42 /* Click5MenuViewPreferences.swift in Sources */,
+				84983AB6238D2FEE00B95E42 /* Click5MenuView+Init.swift in Sources */,
+				84983ABB238D2FEE00B95E42 /* MenuItemView.swift in Sources */,
+				84983AB4238D2FEE00B95E42 /* Click5MenuItemModifier.swift in Sources */,
+				84983AB9238D2FEE00B95E42 /* Alignments.swift in Sources */,
+				84983A55238D2F3700B95E42 /* AppDelegate.swift in Sources */,
+				84983AB1238D2FEE00B95E42 /* Click5HamburgerMenu.swift in Sources */,
+				84983A57238D2F3700B95E42 /* SceneDelegate.swift in Sources */,
+				84983AB8238D2FEE00B95E42 /* Click5TabBar.swift in Sources */,
+				84983AB7238D2FEE00B95E42 /* Click5HamburgerButton.swift in Sources */,
+				84983A59238D2F3700B95E42 /* ContentView.swift in Sources */,
+				84983ABA238D2FEE00B95E42 /* TabItemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84983A63238D2F3A00B95E42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84983A6C238D2F3A00B95E42 /* Click5MenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84983A6E238D2F3A00B95E42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84983A77238D2F3A00B95E42 /* Click5MenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84983A69238D2F3A00B95E42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84983A50238D2F3700B95E42 /* Click5Menu */;
+			targetProxy = 84983A68238D2F3A00B95E42 /* PBXContainerItemProxy */;
+		};
+		84983A74238D2F3A00B95E42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84983A50238D2F3700B95E42 /* Click5Menu */;
+			targetProxy = 84983A73238D2F3A00B95E42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84983A5F238D2F3A00B95E42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84983A60238D2F3A00B95E42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84983A79238D2F3A00B95E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84983A7A238D2F3A00B95E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84983A7C238D2F3A00B95E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Click5Menu/Preview Content\"";
+				DEVELOPMENT_TEAM = Q6SGLY365Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Click5Menu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.click5interactive.Click5Menu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84983A7D238D2F3A00B95E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Click5Menu/Preview Content\"";
+				DEVELOPMENT_TEAM = Q6SGLY365Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Click5Menu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.click5interactive.Click5Menu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84983A7F238D2F3A00B95E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6SGLY365Y;
+				INFOPLIST_FILE = Click5MenuTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.click5interactive.Click5MenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Click5Menu.app/Click5Menu";
+			};
+			name = Debug;
+		};
+		84983A80238D2F3A00B95E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6SGLY365Y;
+				INFOPLIST_FILE = Click5MenuTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.click5interactive.Click5MenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Click5Menu.app/Click5Menu";
+			};
+			name = Release;
+		};
+		84983A82238D2F3A00B95E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6SGLY365Y;
+				INFOPLIST_FILE = Click5MenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.click5interactive.Click5MenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Click5Menu;
+			};
+			name = Debug;
+		};
+		84983A83238D2F3A00B95E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6SGLY365Y;
+				INFOPLIST_FILE = Click5MenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.click5interactive.Click5MenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Click5Menu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84983A4C238D2F3700B95E42 /* Build configuration list for PBXProject "Click5Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84983A79238D2F3A00B95E42 /* Debug */,
+				84983A7A238D2F3A00B95E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84983A7B238D2F3A00B95E42 /* Build configuration list for PBXNativeTarget "Click5Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84983A7C238D2F3A00B95E42 /* Debug */,
+				84983A7D238D2F3A00B95E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84983A7E238D2F3A00B95E42 /* Build configuration list for PBXNativeTarget "Click5MenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84983A7F238D2F3A00B95E42 /* Debug */,
+				84983A80238D2F3A00B95E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84983A81238D2F3A00B95E42 /* Build configuration list for PBXNativeTarget "Click5MenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84983A82238D2F3A00B95E42 /* Debug */,
+				84983A83238D2F3A00B95E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84983A49238D2F3700B95E42 /* Project object */;
+}
