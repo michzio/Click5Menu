@@ -93,4 +93,4 @@ struct Page1 : View {
 }
 ```
 
-As now there is custom MenuGroup that replaces standard SwiftUI Group to add more then 100 screens to Menu. 
+As now there is custom MenuGroup that replaces standard SwiftUI Group to add more then 10 screens to Menu. 
